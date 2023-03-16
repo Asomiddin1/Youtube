@@ -1,4 +1,4 @@
-import { Box, positions, Stack } from '@mui/system';
+import { Box, Stack } from '@mui/system';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { logo } from '../../constants';
@@ -16,7 +16,7 @@ const Navbar = () => {
     height={'10vh'}
     sx={{positions:'stick' , top: 0 ,zIndex:999 , background:colors.primary}} >
        <Link to='/'>
-          <img width={60} src={logo} alt="logo" />
+          <img className='logy' width={60} src={logo} alt="logo" />
        </Link>
     
          <SearchBar />  

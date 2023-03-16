@@ -49,3 +49,7 @@
 .categry-btn:hover span {
     color: white !important;
 }
+
+.logy{
+    border-radius: 10px;
+}
